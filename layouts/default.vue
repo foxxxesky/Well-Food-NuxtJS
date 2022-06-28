@@ -1,17 +1,15 @@
 <template>
   <div>
     <Jumbotron />
+    <Navbar />
     <Nuxt />
     <Footer />
   </div>
 </template>
 
 <script>
-import Jumbotron from "~/components/Jumbotron.vue";
-import Footer from "~/components/Footer.vue";
 export default {
   name: "Main-Page",
-  components: { Jumbotron, Footer },
 };
 </script>
 
